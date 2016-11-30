@@ -67,6 +67,103 @@ table {
 
 
 
+body {
+	background-color: rgba(172, 163, 150, 1);
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.15em;
+	font-weight: 300;
+	line-height: 1.25em;
+	letter-spacing: .09em;
+	color: rgba(38, 50, 86, 0.5);
+	margin: 0%;
+}
+.container {
+	background-color: rgba(225, 223, 216, 1);
+	box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.08);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+			 border-radius: 10px;
+	margin: 2.5% auto;
+	width: 83vw;
+	height: 100vh;
+}
+.nav {
+	position: relative;
+	background-color: rgba(38, 50, 86, 1);
+	color: rgba(255, 255, 255, 1);
+	width: 100%;
+	height: 8%;
+	-webkit-border-radius: 10px 10px 0px 0px;
+	-moz-border-radius: 10px 10px 0px 0px;
+			 border-radius: 10px 10px 0px 0px;
+	margin: 0%;
+	padding: 1em;
+}
+.nav:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.9;
+    background-image: url("../img/mtnRng.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.nav ul li {
+	color: rgba(192, 145, 93,1);
+	float: right;
+	text-decoration: none;
+}
+.nav a {
+	color: rgba(192, 145, 93,1);
+	text-decoration: none;
+}
+.links {
+	float: right;
+	width: 40%;
+	height: 50%;
+}
+.logo	{
+	float: left;
+	width: 15%;
+	height: 100%;
+}
+.logo img {
+	float: left;
+	width: 100%;
+	height: 100%;
+	filter: invert(100%);
+}
+.logo h3 {
+	float: left;
+}
+.search {
+	float: right;
+	background-color: rgba(255, 255, 255, 1);
+	width: 20%;
+	height: 50%;
+	border: 1px solid rgba(255, 255, 255, 1);
+	color: rgba(38, 50, 86, 1);
+	padding-top: .4em;
+}
+.fa {
+	float: right;
+	color: rgba(38, 50, 86, 1);
+}
+.header h1 {
+	font-family: 'Amatic SC', cursive;
+	font-size: 2em;
+}
+
 
 
 
